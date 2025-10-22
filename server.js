@@ -80,6 +80,7 @@ app.get("/get-invite/:id", async (req, res) => {
         console.log(`❓ Failed to resolve Syrja ID: ${fullId}`);
         res.status(404).json({ error: "ID not found or has expired" });
     }
+});
 
 // Endpoint to find a user's current ID by their public key
 app.get("/get-id-by-pubkey/:pubkey", async (req, res) => {
