@@ -4,7 +4,6 @@ const { Server } = require("socket.io");
 const storage = require("node-persist");
 const cors = require("cors");
 
-
 // Simple word lists for more memorable IDs
 const ADJECTIVES = ["alpha", "beta", "gamma", "delta", "zeta", "nova", "comet", "solar", "lunar", "star"];
 const NOUNS = ["fox", "wolf", "hawk", "lion", "tiger", "bear", "crane", "iris", "rose", "maple"];
